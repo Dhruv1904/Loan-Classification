@@ -132,12 +132,7 @@ def main():
         else:
             result= str('Sorry you are not eligible for the loan')
     st.success(result)
-    st.text(float((ai+ci)*(lat)) >la),
-    st.text(ai)
-    st.text(ci)
-    st.text(lat)
-    st.text((1.2)*la)
-    st.text("Follow DataMonk on Youtube to Know how to make such Awesome Webapps")
+    st.subheader("Follow DataMonk on Youtube to Know how to make such Awesome Webapps")
 
 if __name__=='__main__':
     main()
